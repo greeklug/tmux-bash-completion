@@ -14,6 +14,7 @@ help:
 install: $(SYSTEM_COMPLETION_DIR)/tmux
 
 .PHONY: uninstall
+uninstall:
 	rm -f $(SYSTEM_COMPLETION_DIR)/tmux
 
 $(SYSTEM_COMPLETION_DIR)/tmux:
